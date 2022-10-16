@@ -177,7 +177,7 @@ class PVEZ_AdminConsoleGUI extends UIScriptedMenu {
 	}
 
 	override Widget Init() {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets("PVEZ\\GUI\\layouts\\AdminConsole.layout");
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets("PVEZ\\data\\gui\\layouts\\AdminConsole.layout");
 
 		/// SETTINGS, ZONES, LAWBREAKERS header buttons
 		btnGeneral = ButtonWidget.Cast(layoutRoot.FindAnyWidget("btnGeneral"));
