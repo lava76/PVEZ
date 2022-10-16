@@ -1,4 +1,4 @@
-## Playground PVEZ Mod
+## PVEZ Mod
 ![Offline](https://img.shields.io/badge/Supported_DayZ_Version-1.18-orange)
 
 This source was used to adapt the original [PVEZ MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=1878060278) for use on the Playground DayZ servers.
