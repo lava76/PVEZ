@@ -9,13 +9,13 @@ class PVEZ_NotificationGUI : Managed {
 	int notiTime;
 
 	void PVEZ_NotificationGUI() {
-		rootWidget = GetGame().GetWorkspace().CreateWidgets("PVEZ/GUI/Layouts/PvpIcon.layout");
+		rootWidget = GetGame().GetWorkspace().CreateWidgets("PVEZ/data/gui/layouts/PvpIcon.layout");
 
 		iconWidget = Widget.Cast(rootWidget.FindAnyWidget("IconWidget"));
 		iconImage = ImageWidget.Cast(iconWidget.FindAnyWidget("Image"));
-		iconImage.LoadImageFile(0, "PVEZ/GUI/Images/swords_new2.edds"); //image #1: PVP zone
-		iconImage.LoadImageFile(1, "PVEZ/GUI/Images/skull_new2.edds"); //image #2: Lawbreaker
-		iconImage.LoadImageFile(2, "PVEZ/GUI/Images/shield_new2.edds"); //image #3: Safe zone
+		iconImage.LoadImageFile(0, "PPVEZ/data/gui/layouts/images/swords_new2.edds"); //image #1: PVP zone
+		iconImage.LoadImageFile(1, "PVEZ/data/gui/layouts/images/skull_new2.edds"); //image #2: Lawbreaker
+		iconImage.LoadImageFile(2, "PVEZ/data/gui/layouts/images/shield_new2.edds"); //image #3: Safe zone
 
 		notiWidget = GridSpacerWidget.Cast(rootWidget.FindAnyWidget("NotificationWidget"));
 		notiTextWidget = RichTextWidget.Cast(notiWidget.FindAnyWidget("NotificationTitle"));

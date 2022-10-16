@@ -17,9 +17,9 @@ class CfgMods
 		extra=0;
 		type="mod";
 		name="PVEZ";
-		credits="Ermiq";
+		credits="GumbyMN";
 		author="Ermiq";
-		inputs="PVEZ/data/inputs.xml";
+		inputs="PVEZ/data/modded_inputs.xml";
 		overview="$STR_pvez_overview";
 		dependencies[]=
 		{
@@ -35,7 +35,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"PVEZ/Common"
+					"PVEZ/data/Common"
 				};
 			};
 			class gameScriptModule
@@ -43,9 +43,9 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"PVEZ/Common",
-					"PVEZ/3_Game",
-					"PVEZ/Plugins/BasicMap/3_Game"
+					"PVEZ/data/Common",
+					"PVEZ/scripts/3_Game",
+					"PVEZ/data/Plugins/BasicMap/3_Game"
 				};
 			};
 			class worldScriptModule
@@ -53,9 +53,9 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"PVEZ/Common",
-					"PVEZ/4_World",
-					"PVEZ/Plugins/Expansion/4_World"
+					"PVEZ/data/Common",
+					"PVEZ/scripts/4_World",
+					"PVEZ/data/Plugins/Expansion/4_World"
 				};
 			};
 			class missionScriptModule
@@ -63,9 +63,9 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"PVEZ/Common",
-					"PVEZ/5_Mission",
-					"PVEZ/Plugins/Expansion/5_Mission"
+					"PVEZ/data/Common",
+					"PVEZ/scripts/5_Mission",
+					"PVEZ/data/Plugins/Expansion/5_Mission"
 				};
 			};
 		};
