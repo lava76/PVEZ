@@ -1,6 +1,6 @@
 ## Playground PVEZ Mod
 ![Offline](https://img.shields.io/badge/Version-1.17-green)
 
-This source was used to adapt the original (PVEZ MOD)[https://steamcommunity.com/sharedfiles/filedetails/?id=1878060278] for use on the Playground DayZ servers.
+This source was used to adapt the original [PVEZ MOD](https://steamcommunity.com/sharedfiles/filedetails/?id=1878060278) for use on the Playground DayZ servers.
 
-* Added Native Support for (Advanced Groups)[https://lbmaster.de/product.php?id=4]
+* Added Native Support for [Advanced Groups](https://lbmaster.de/product.php?id=4)
