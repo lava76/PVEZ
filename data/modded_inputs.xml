@@ -5,7 +5,9 @@
             <input name="UAPVEZOpenAdminMenu" loc="PVEZ admin GUI"/>
         </actions>
     </inputs>
-
+    <sorting name="pvez" loc="PVEZ_Menu">
+		<input name="UAPVEZOpenAdminMenu"/>
+	</sorting>
     <preset>
 		<input name="UAPVEZOpenAdminMenu">
             <btn name="">

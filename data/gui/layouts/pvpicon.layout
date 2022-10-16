@@ -66,7 +66,7 @@ FrameWidgetClass Frame {
        scaled 1
        fixaspect fixwidth
        draggable 0
-       image0 "E:\DayZMods\PVEZ\PVEZ\GUI\Images\swords_new2.edds"
+       image0 "PVEZ\data\gui\images\swords_new2.edds"
        mode blend
        "src alpha" 1
        "no wrap" 0
