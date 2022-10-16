@@ -19,7 +19,7 @@ class CfgMods
 		name="PVEZ";
 		credits="GumbyMN";
 		author="Ermiq";
-		inputs="PVEZ/data/modded_inputs.xml";
+		inputs="PVEZ/data/modded_Inputs.xml";
 		overview="$STR_pvez_overview";
 		dependencies[]=
 		{

@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="true"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <modded_inputs>
     <inputs>
         <actions>
             <input name="UAPVEZOpenAdminMenu" loc="PVEZ admin GUI"/>
         </actions>
     </inputs>
-    <sorting name="pvez" loc="PVEZ_Menu">
-		<input name="UAPVEZOpenAdminMenu"/>
+
+    <sorting name="pvez" loc="pvez_menu">
+		<input name="UAPVEZOpenAdminMenu" />
 	</sorting>
+
     <preset>
 		<input name="UAPVEZOpenAdminMenu">
-            <btn name="">
-            </btn>
+            <btn name=""></btn>
         </input>
     </preset>
 </modded_inputs>
