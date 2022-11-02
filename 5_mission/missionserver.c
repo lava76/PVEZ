@@ -34,6 +34,9 @@ modded class MissionServer {
 #ifdef EXPANSIONMODMISSIONS
 	Print("PVEZ :: Expansion Missions defined.");
 #endif
+#ifdef VPPADMINTOOLS
+	Print("PVEZ :: VPPAdminTools Missions defined.");
+#endif
 #ifdef EXPANSIONMODNAVIGATION
 	Print("PVEZ :: Expansion Navigation defined.");
 #endif
