@@ -86,6 +86,7 @@ class PVEZ_ZoneColor : Managed {
 class PVEZ_MapSettings : Managed {
 	bool Show_Player_Marker = true;
 	string Custom_Player_Marker_Text = "";
+	bool Show_Zones_In_VPPA_Teleport_Manager = true;
 	autoptr PVEZ_ZoneColor Zones_Border_Color;
 
 	autoptr PVEZ_LawbreakersMapMarkers Lawbreakers_Markers;
