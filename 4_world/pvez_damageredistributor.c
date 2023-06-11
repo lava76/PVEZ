@@ -183,7 +183,8 @@ class PVEZ_DamageRedistributor : Managed {
 	}
 	
 	void ProcessDamageReflection(int wpnType, float healthDmgAmount) {
-		if (DirectDmgInitiator && DirectDmgInitiator.IsAlive()) {
+		PlayerBase player;
+		if (DirectDmgInitiator && DirectDmgInitiator.IsAlive() && (!Class.CastTo(player, DirectDmgInitiator) || player.GetIdentity())) {
 			if (ShouldReflectDamage(wpnType)) {
 				float dmg = healthDmgAmount;
 				DirectDmgInitiator.AddHealth(-dmg);
