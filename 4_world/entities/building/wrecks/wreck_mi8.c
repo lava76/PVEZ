@@ -1,17 +1,11 @@
-/*
-	This modded Mi8 wreck class declaration causes conflicts with the CFDZPlugin mod, so it is disabled.
-	There is a task opened at https://feedback.bistudio.com/T156813 regarding this issue in February 2021. No solution from Bohemia so far.
-*/
-
-/*
-class Wreck_Mi8 extends House {
+modded class Wreck_Mi8_Crashed {
 
 	protected autoptr PVEZ_Zone pvez_Zone;
 
-	void Wreck_Mi8() {
+	void Wreck_Mi8_Crashed() {
 		GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(CreatePVEZZone, 500, false, this);
 	}
-	
+
 	override void EEDelete(EntityAI parent) {
 		// Remove zone if PVEZ zones manager is still alive
 		if (g_Game && g_Game.pvez_Zones) {
@@ -31,4 +25,3 @@ class Wreck_Mi8 extends House {
 			g_Game.pvez_Config.HELICRASH_ZONES.ShowNameOnMap);
 	}
 }
-*/
