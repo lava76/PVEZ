@@ -38,7 +38,7 @@ modded class ExpansionAirdropContainerBase {
 
 	void CheckContainerPosition() {
 		// Remove the updater if the container is landed and the loot has been spawned.
-		if (m_HasLanded || !pvez_Zone) {
+		if (Expansion_HasLanded() || !pvez_Zone) {
 			GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).Remove(CheckContainerPosition);
 			return;
 		}
