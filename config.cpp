@@ -66,7 +66,8 @@ class CfgMods
 					"PVEZ/Common",
 					"PVEZ/5_Mission",
 					"PVEZ/Plugins/Expansion/5_Mission",
-					"PVEZ/Plugins/VPPAdminTools/5_Mission"
+					"PVEZ/Plugins/VPPAdminTools/5_Mission",
+					"PVEZ/Plugins/Carim/5_Mission"
 				};
 			};
 		};
